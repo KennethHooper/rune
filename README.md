@@ -1,3 +1,5 @@
+# TEMOPORARY COPY ** DO NOT USE THIS REPOSITORY **
+
 # Rune
 An opinionated install profile focused on developer happiness and a
 git-based workflow. Built and battle tested on [Valkyrie](https://github.com/GetValkyrie/valkyrie).
