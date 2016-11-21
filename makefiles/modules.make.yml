@@ -1,0 +1,250 @@
+api: 2
+core: 7.x
+
+projects:
+  addressfield:
+    version: ~
+    patch:
+      - https://www.drupal.org/files/issues/addressfield-nonempty-1263316-98.patch
+  addressfield_staticmap: { version: ~ }
+  addressfield_tokens: { version: 1.5 }
+  addthis: { version: ~ }
+  addtoany: { version: ~ }
+  admin_menu:
+    version: ~
+    patch:
+      - https://www.drupal.org/files/admin_menu-search-disappeared-1916812-13.patch
+  admin_views: { version: ~ }
+  adminimal_admin_menu: { version: ~ }
+  advagg: { version: ~ }
+  apdqc: { version: ~ }
+  auto_entitylabel: { version: ~ }
+  better_exposed_filters: { version: ~ }
+  better_formats: { version: ~ }
+  bg_image: { version: ~ }
+  bg_image_formatter: { version: ~ }
+  breakpoints: { version: ~ }
+  captcha: { version: ~ }
+  ckeditor:
+    version: 1.16
+    patch:
+      - https://www.drupal.org/files/issues/Issue_2454933.patch
+  cloudflare: { version: ~ }
+  coffee: { version: ~ }
+  colorbox: { version: ~ }
+  computed_field: { version: ~ }
+  conditional_fields:
+    version: ~
+    patch:
+      - https://www.drupal.org/files/issues/filled_with_a_value-2142691-16.patch
+  content_menu: { version: ~ }
+  contextual_range_filter: { version: ~ }
+  countries: { version: ~ }
+  ctools: { version: ~ }
+  date: { version: ~ }
+  devel: { version: ~ }
+  diff: { version: ~ }
+  disqus: { version: ~ }
+  email: { versions: ~ }
+  email_registration: { version: ~ }
+  editablefields: { version: ~ }
+  elysia_cron: { version: ~ }
+  entity: { version: ~ }
+  entity_view_mode: { version: ~ }
+  entityreference: { version: ~ }
+  environment: { version: ~ }
+  environment_indicator: { version: ~ }
+  eva: { version: ~ }
+  expire: { version: ~ }
+  fb_likebox: { version: 2.2 }
+  features: { version: ~ }
+  features_override: { version: ~ }
+  feeds: { version: ~ }
+  feeds_tamper: { version: ~ }
+  feeds_xpathparser: { version: ~ }
+  fences: { version: ~ }
+  field_collection:
+    version: ~
+    patch:
+      - https://www.drupal.org/files/issues/field_collection-host_entity_tokens-1372652-74.patch
+  field_collection_feeds:
+    version: ~
+    patch:
+      - https://www.drupal.org/files/issues/FeedsUpdateIssue-1921128-12.patch
+  field_group: { version: ~ }
+  field_permissions: { version: ~ }
+  field_validation:
+    download: { branch: 2.x-dev, revision: 63e1e83 }
+  file_entity: { version: ~ }
+  filefield_paths:
+    download: { branch: 1.x-dev, revision: e016a2e }
+  filefield_sources: { version: ~ }
+  flag:
+    version: ~
+    patch:
+      - https://www.drupal.org/files/issues/flag-broken-1925922-131.patch
+      - https://www.drupal.org/files/issues/1925922-flag-fixed-warning-76.patch
+      - https://www.drupal.org/files/issues/line-130-fixer-upper-rater-19252922-46_1.patch
+  flexslider: { version: ~ }
+  flippy: { version: ~ }
+  geocoder: { version: ~ }
+  geofield:
+    version: ~
+    patch:
+      - https://www.drupal.org/files/issues/geofield-feeds_import_not_saving-2534822-46.patch
+  geophp: { version: ~ }
+  google_analytics: { version: 2.1 }
+  googtube:
+    version: ~
+    patch:
+      - https://www.drupal.org/files/issues/googtube-2428511-match-https-urls-too.patch
+      - https://www.drupal.org/files/issues/googtube-fix-https-embed-1822354-9.patch
+  gtranslate: { version: ~ }
+  hidden_captcha: { version: ~ }
+  hybridauth: { version: ~ }
+  i18n: { version: ~ }
+  iframe: { version: ~ }
+  imageapi_optimize:
+    version: ~
+    patch:
+      - https://www.drupal.org/files/issues/imageapi_optimize-clean_up_temp_files-2495943-1.patch
+  imagecache_actions: { version: ~ }
+  imagecache_token: { version: ~ }
+  imagefield_tokens:
+    download: { branch: 1.x-dev, revision: 9244539 }
+  imce: { version: ~ }
+  imce_filefield: { version: ~ }
+  inline_entity_form: { version: ~ }
+  inline_messages: { version: ~ }
+  jquery_update: { version: ~ }
+  job_scheduler: { version: ~ }
+  label_help: { version: ~ }
+  lang_dropdown: { version: ~ }
+  leaflet:
+    version: ~
+    patch:
+      - https://www.drupal.org/files/issues/field-formatter-errors-2185767-6.patch
+      - https://www.drupal.org/files/issues/taxonomy-terms-attached-image-fields-as-markers-2178231-25_0.patch
+  leaflet_more_maps: { version: ~ }
+  libraries: { version: ~ }
+  link: { version: ~ }
+  linkit: { version: ~ }
+  logentries: { version: ~}
+  mailchimp: { version: ~ }
+  mailsystem:
+    download: { branch: 3.x-dev, revision: 4c957ae }
+  manualcrop:
+    version: ~
+    patch:
+      - https://www.drupal.org/files/issues/manualcrop--automatic_default_crop--1.5.diff
+  masquerade: { version: ~ }
+  media: { version: 2.x-dev }
+  media_ckeditor: { version: ~ }
+  media_oembed: { version: ~ }
+  media_youtube: { version: ~ }
+  menu_attributes: { version: ~ }
+  menu_token: { version: ~ }
+  metatag: {version: 1.5 }
+  migrate: { version: ~ }
+  mimemail: { version: ~ }
+  mixpanel:
+    download: { branch: 1.x-dev, revision: 14f8ee8 }
+  module_filter: { version: ~ }
+  modernizr: { version: 3.7 }
+  multiupload_filefield_widget: { version: 1.13 }
+  multiupload_imagefield_widget: { version: 1.3 }
+  multiple_selects: { version: ~ }
+  oauth: { version: ~ }
+  office_hours: { version: ~ }
+  openid_selector: {version: ~}
+  openid_sso_relying: { version: 1.0-beta3 }
+  owlcarousel: {version: 1.5}
+  pagepreview: { version: ~ }
+  panelizer:
+    download: { branch: 3.x-dev, revision: dd5aacc }
+  panels: { version: ~ }
+  panels_content_cache: { version: ~ }
+  panels_everywhere: { version: ~ }
+  paragraphs: { version: ~ }
+  path_redirect_import: { version: ~ }
+  pathauto: { version: ~ }
+  patterns: { version: ~ }
+  phone: { version: ~ }
+  photoswipe: { version: ~ }
+  picture: { version: ~ }
+  profile2: { version: ~ }
+  quicktabs:
+    download: { branch: 3.x-dev, revision: aeeaaa9 }
+  rabbit_hole: { version: ~ }
+  range: { version: ~ }
+  redirect:
+    download: { branch: 2.x-dev, revision: cfe2e89 }
+  # See: https://www.drupal.org/node/240686://www.drupal.org/node/2406863
+  # until this is resolved, we need to stick with 2.7
+  required_by_role: { version: ~ }
+  rules: { version: 2.7 }
+  save_edit: { version: ~ }
+  search404: { version: ~ }
+  search_by_page: { version: ~ }
+  segmentio: { version: ~ }
+  services: { version: ~ }
+  simplify: { version: ~ }
+  xmlsitemap: { version: ~ }
+  s3fs:
+    version: 2.1
+    patch:
+      - https://www.drupal.org/files/issues/s3fs-allow_uri_scheme_overrides-2495559-1.patch
+  save_draft: { version: ~ }
+  save_edit: { version: ~ }
+  scheduler: { version: ~ }
+  service_links: { version: ~ }
+  shareaholic: { version: ~ }
+  sharethis:
+    download: { branch: 2.x-dev, revision: b51ebc0 }
+    patch:
+      - https://www.drupal.org/files/issues/1425744-sharethis-popup-9.patch
+  smtp: { version: ~ }
+  socialmedia: { version: ~ }
+  special_menu_items: { version: ~ }
+  strongarm: { version: ~ }
+  subpathauto: { version: ~ }
+  subscriptions: { version: ~ }
+  superfish:
+    download: { branch: 1.x-dev, revision: fa3d7c6 }
+  themekey: { version: ~ }
+  title: { version: ~ }
+  token: { version: ~ }
+  token_filter: { version: ~ }
+  twitter: { version: ~ }
+  uuid:
+    download: { branch: 1.x-dev, revision: a7bf2db }
+    patch:
+      - https://www.drupal.org/files/issues/uuid_add-paragraphs-module-support-2471174.patch
+  uuid_features:
+    download: { branch: 1.x-dev, revision: 84db2dd }
+    patch:
+      - https://www.drupal.org/files/issues/uuid_features-export%E2%80%93files-in%E2%80%93file-fields-with-taxonomy-terms-2454405-1.patch
+  user_role_field: { version: ~ }
+  variable: { version: ~ }
+  varnish: { version: ~ }
+  views:
+    version: ~
+    patch:
+      - https://www.drupal.org/files/views-area-results-plural-1793500-1.patch
+      - https://www.drupal.org/files/issues/views-taxonomy_multiple_term_names-1248300-46.patch
+  views_accordion: { version: ~ }
+  views_bootstrap: { version: ~ }
+  views_bulk_operations: { version: ~ }
+  views_content_cache: { version: ~ }
+  views_data_export: { version: ~ }
+  views_datasource: { version: ~ }
+  views_field_view: { version: ~ }
+  views_megarow: { version: ~ }
+  views_load_more: { version: ~ }
+  views_rss: { version: ~  }
+  webform: { version: ~ }
+  webform_phone: { version: ~ }
+  webform_uuid: { version: ~ }
+  yoast_seo: { version: ~ }
+  youtube: { version: ~ }
+  

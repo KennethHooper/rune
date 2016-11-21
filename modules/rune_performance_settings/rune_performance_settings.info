@@ -1,0 +1,16 @@
+name = Rune Performance Settings
+description = Various performance settings for production ready sites.
+core = 7.x
+package = Rune
+version = 7.x-1.0
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = block_cache
+features[variable][] = cache
+features[variable][] = cron_safe_threshold
+features[variable][] = page_compression
+features[variable][] = preprocess_css
+features[variable][] = preprocess_js
+project path = profiles/rune/modules
