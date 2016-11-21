@@ -10,7 +10,7 @@ projects[drupal][type] = "core"
 
 ; Profiles
 projects[rune][type] = "profile"
-projects[rune][download][url] = "https://github.com/poetic/rune.git"
+projects[rune][download][url] = "https://github.com/kennethhooper/rune.git"
 projects[rune][download][type] = "git"
 projects[rune][download][tag] = "0.2.1"
 
