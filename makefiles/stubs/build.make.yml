@@ -11,6 +11,6 @@ projects:
     type: profile
     subdir: ~
     download:
-      url: https://github.com/poetic/rune.git
+      url: https://github.com/kennethhooper/rune.git
       branch: "master"
 
