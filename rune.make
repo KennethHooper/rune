@@ -174,8 +174,7 @@ projects[field_collection][version] = "1.0-beta8"
 projects[field_collection][patch][0] = "https://www.drupal.org/files/issues/field_collection-host_entity_tokens-1372652-74.patch"
 
 projects[field_collection_feeds][subdir] = "contrib"
-projects[field_collection_feeds][version] = "1.0-alpha3"
-projects[field_collection_feeds][patch][0] = "https://www.drupal.org/files/issues/FeedsUpdateIssue-1921128-12.patch"
+projects[field_collection_feeds][version] = "1.0-alpha4"
 
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.5"
@@ -284,12 +283,10 @@ projects[lang_dropdown][subdir] = "contrib"
 projects[lang_dropdown][version] = "2.5"
 
 projects[leaflet][subdir] = "contrib"
-projects[leaflet][version] = "1.1"
-projects[leaflet][patch][0] = "https://www.drupal.org/files/issues/field-formatter-errors-2185767-6.patch"
-projects[leaflet][patch][1] = "https://www.drupal.org/files/issues/taxonomy-terms-attached-image-fields-as-markers-2178231-25_0.patch"
+projects[leaflet][version] = "1.3"
 
 projects[leaflet_more_maps][subdir] = "contrib"
-projects[leaflet_more_maps][version] = "1.11"
+projects[leaflet_more_maps][version] = "1.16"
 
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.2"
